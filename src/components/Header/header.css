@@ -1,0 +1,39 @@
+header {
+    width: 100%;
+    height: 70px;
+    background: #fff;
+  }
+ 
+  header .logo img {
+    width: 45px;
+  }
+  header .logo{
+    text-decoration: none;
+  }
+  header .logo span {
+   color: #053b58;
+   font-weight: 800;
+   font-size: 24px;
+  }
+  header button.rounded-circle{
+
+    background: #f0f5ff !important;
+    color: #292929;
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    border-radius: 50% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;  
+
+  }
+
+  header button.rounded-circle svg{
+    color: #292929;
+    font-size: 18px !important;
+  }
+  header .part2 {
+    margin-left: 6rem; /* Ensures button is exactly 40px from logo */
+  }
